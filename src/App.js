@@ -9,22 +9,14 @@ const App = () => {
 
     // Liste des produits avec des catégories ajoutées
     const products = [
-        { id: 1, name: 'Produit 1', description: 'Description du produit 1', price: 10, image: 'https://via.placeholder.com/150' },
-        { id: 2, name: 'Produit 2', description: 'Description du produit 2', price: 20, image: 'https://via.placeholder.com/150' },
-        { id: 3, name: 'Produit 3', description: 'Description du produit 3', price: 15, image: 'https://via.placeholder.com/150' },
-        { id: 4, name: 'Produit 4', description: 'Description du produit 4', price: 25, image: 'https://via.placeholder.com/150' },
-        { id: 5, name: 'Produit 5', description: 'Description du produit 5', price: 30, image: 'https://via.placeholder.com/150' },
-        { id: 6, name: 'Produit 6', description: 'Description du produit 6', price: 40, image: 'https://via.placeholder.com/150' },
-        { id: 7, name: 'Produit 7', description: 'Description du produit 7', price: 18, image: 'https://via.placeholder.com/150' },
-        { id: 8, name: 'Produit 8', description: 'Description du produit 8', price: 22, image: 'https://via.placeholder.com/150' },
-        { id: 9, name: 'Produit 9', description: 'Description du produit 9', price: 35, image: 'https://via.placeholder.com/150' },
-        { id: 10, name: 'Produit 10', description: 'Description du produit 10', price: 35, image: 'https://via.placeholder.com/150' },
-        { id: 11, name: 'Produit 11', description: 'Description du produit 11', price: 35, image: 'https://via.placeholder.com/150' },
-        { id: 12, name: 'Produit 12', description: 'Description du produit 12', price: 35, image: 'https://via.placeholder.com/150' },
-        { id: 13, name: 'Produit 13', description: 'Description du produit 13', price: 35, image: 'https://via.placeholder.com/150' },
-        { id: 14, name: 'Produit 14', description: 'Description du produit 13', price: 35, image: 'https://via.placeholder.com/150' },
-        { id: 15, name: 'Produit 15', description: 'Description du produit 13', price: 35, image: 'https://via.placeholder.com/150' },
-        { id: 16, name: 'Produit 16', description: 'Description du produit 13', price: 35, image: 'https://via.placeholder.com/150' },
+        { id: 1, name: 'Oppo RENO12 F 5G', category: 'Électronique', description: "Description d'oppo", price: 10, image: '/4.jpg' },
+        { id: 2, name: 'JACKET NOIR', category: 'Vêtements', description: 'Description du jacket noir', price: 20, image: '/1.jpg' },
+        { id: 3, name: 'matelas & linge', category: 'Maison', description: 'Description de matlete', price: 15, image: '/7.jpg' },
+        { id: 4, name: 'sumsung galaxy A34', category: 'Électronique', description: 'Description de sumsung a34', price: 25, image: '/5.jpg' },
+        { id: 5, name: 'JACKET BLEU', category: 'Vêtements', description: 'Description du jecket bleu', price: 30, image: '/3.jpg' },
+        { id: 6, name: 'meubles', category: 'Maison', description: 'Description des meubles', price: 40, image: '/8.jpg' },
+        { id: 7, name: 'XIAOMI redmi 12', category: 'Électronique', description: 'Description xiaomi redmi 12', price: 18, image: '/6.jpg' },
+        { id: 8, name: 'TRICKO NOIR', category: 'Vêtements', description: 'Description du tricko noir', price: 22, image: '/2.jpg' },
     ];
 
     const onAddToCart = (product) => {
